@@ -34,7 +34,7 @@ const Table = () => {
         <th class=" py-2 px-4">Shop Name</th>
         <th class=" py-2 px-4">Email</th>
         <th class=" py-2 px-4">Contact</th>
-        <th class=" py-2 px-4">Open hours</th>
+        <th class=" py-2 px-4">Opening hours</th>
         <th class=" py-2 px-4">Whatsapp</th>
         <th class=" py-2 px-4">Working Hours</th>
         <th class=" py-2 px-4">Referral</th>
