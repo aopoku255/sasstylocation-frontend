@@ -54,8 +54,8 @@ const Table = () => {
         <td class="py-5 px-4 ">{contact || "N/A"}</td>
         <td class="py-5 px-4 text-center">{working || "N/A"}</td>
         <td class="py-5 px-4 text-center">{number || "N/A"}</td>
-        <td class="py-5 px-4 text-center">N / A</td>
-        <td class="py-5 px-4 text-center">N / A</td>
+        <td class="py-5 px-4 text-center">{working || "N/A"}</td>
+        <td class="py-5 px-4 text-center">{referral || "N/A"}</td>
         <td class="py-5 px-4 text-justify">{address || "N/A"}</td>
         <td></td>
       </tr>)
