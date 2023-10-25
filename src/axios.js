@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const axiosInstance = axios.create({
-    // baseURL: "https://geolocation.cyclic.app/",
+    baseURL: "https://sassty.cyclic.app/",
     // baseURL: "http://localhost:3001",
     headers: {
         "Content-Type": "application/json",
