@@ -46,7 +46,7 @@ const Table = () => {
     <tbody class="text-gray-700">
       {/* <!-- Example user data, replace with your actual data --> */}
       {
-        data.map(({name, email, address, contact, number, referral, working}, index) => <tr className=' divide-y-[1px]'>
+        data.map(({name, email, address, contact, number, referral, select, working}, index) => <tr className=' divide-y-[1px]'>
             <td></td>
             <td>{index + 1}</td>
         <td class="py-5 px-4 ">{name || "N/A"}</td>
@@ -54,7 +54,7 @@ const Table = () => {
         <td class="py-5 px-4 ">{contact || "N/A"}</td>
         <td class="py-5 px-4 text-center">{working || "N/A"}</td>
         <td class="py-5 px-4 text-center">{number || "N/A"}</td>
-        <td class="py-5 px-4 text-center">{working || "N/A"}</td>
+        <td class="py-5 px-4 text-center">{select || "N/A"}</td>
         <td class="py-5 px-4 text-center">{referral || "N/A"}</td>
         <td class="py-5 px-4 text-justify">{address || "N/A"}</td>
         <td></td>
