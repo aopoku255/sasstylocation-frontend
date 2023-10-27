@@ -54,7 +54,7 @@ const [selectedMarker, setSelectedMarker] = useState(null);
       <GoogleMap
         mapContainerStyle={containerStyle}
         center={center}
-        zoom={10}
+        zoom={7.8}
         onLoad={onLoad}
         onUnmount={onUnmount}
       >
